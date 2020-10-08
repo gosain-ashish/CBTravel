@@ -1,0 +1,67 @@
+.head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    font-family: 'Chilanka', cursive;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+.lh {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.lh a {
+    cursor: pointer;
+}
+
+.lh .lh-1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: 2px solid black;
+    border-radius: 31px;
+    width: 110px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.lh .lh-2 {
+    margin: 10px 0px;
+}
+
+.rh {
+    margin-right: 10px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.rh-ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.rh-li-a {
+    font-weight: bold;
+    padding: 7px 15px;
+    background-color: #000;
+    color: #fff;
+    border: 2px solid black;
+    margin: 0px 10px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.rh-li-a:hover {
+    text-decoration: none;
+}

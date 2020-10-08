@@ -1,0 +1,20 @@
+.foot {
+    display: flex;
+    min-height: 15vh;
+    padding: 10px;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Chilanka', cursive;
+}
+
+.cp {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cp .rights {
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
