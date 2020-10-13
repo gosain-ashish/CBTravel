@@ -52,7 +52,8 @@
     padding: 15px;
     padding-top: 30px;
     background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 76%, rgba(165,220,233,1) 100%);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, 
+        rgba(200,228,231,1) 50%, rgba(252,252,252,1) 100%);
 }
 
 .grid .h-1 {
