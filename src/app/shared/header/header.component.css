@@ -62,6 +62,6 @@
     cursor: pointer;
 }
 
-.rh-li-a:hover {
+.rh-li-a:hover, .lh a:hover {
     text-decoration: none;
 }

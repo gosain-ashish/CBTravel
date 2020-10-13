@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-home-intro',
@@ -12,4 +12,10 @@ export class HomeIntroComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  ngAfterViewInit() {
+    setTimeout(() => {
+      document.getElementById('loader').style.display = 'none';
+      document.getElementById('g-loc').style.display = 'flex';
+    }, 2500)
+  }
 }
